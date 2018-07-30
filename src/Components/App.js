@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Button } from 'react-bootstrap'
 import Posts from './PostComponents/posts'
 
 class App extends Component {
@@ -10,6 +9,7 @@ class App extends Component {
 
     this.posts = [
       {
+        img: '../assets/img/img1.jpg',
         title: 'Male The Alternative Anti Aging Approach',
         desc: 'Authoritatively administrate long-term high-impact e-business via parallel web services. Synergistically synergize equity invested infrastructures whereas integrated infrastructures.'
       },
@@ -39,14 +39,9 @@ class App extends Component {
           <div className='container'>
             <div className='row'>
 
-              <div className='col-md-4'>
-                <div className='blogWrapper'>
-                  <div className='blogHeader'>
-                    <Posts posts={this.posts} />
-                  </div>
-                </div>
-                
-              </div>
+              { this.posts.map((post, index) => {
+                return <Posts post={post} key={index} />
+              }) }
 
             </div>
           </div>
