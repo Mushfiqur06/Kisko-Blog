@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700|Raleway:300,400,500,600,700,800,900');
+a,
+a:hover{
+    text-decoration: none !important;
+}
+.BlogSection {
+    background-color: #f1f5f5;
+    padding: 100px 0;
+}
+.blogWrapper{
+    background-color: #fff;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+.blogHeader h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 23px;
+    text-transform: capitalize;
+    line-height: 30px;
+    color: #212121;
+    margin-bottom: 15px;
+    word-wrap:break-word;
+    -ms-word-wrap:break-word
+}
+.blogHeader h2 a{
+    color: #212121;
+    transition: all .3s ease-in-out;
+}
+.blogHeader h2 a:hover{
+    background-color:#ffcc00;
+}
+.blogHeader p{
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #5f696e;
+}
