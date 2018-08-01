@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Post from './SinglePost/post'
+import BlogImgOne from './../../assets/img/img1.jpg'
 
 class Posts extends Component{
     render(){
@@ -7,7 +8,7 @@ class Posts extends Component{
             <div className='col-md-4'>
                 <div className='blogWrapper'>
                     <div className='postThumbnail'>
-                        <img src={this.props.post.img} />
+                        <img src={BlogImgOne} />
                     </div>
                   <div className='blogHeader'>
                     <h2>
