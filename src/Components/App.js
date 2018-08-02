@@ -14,6 +14,7 @@ class App extends Component {
         desc: 'Authoritatively administrate long-term high-impact e-business via parallel web services. Synergistically synergize equity invested infrastructures whereas integrated infrastructures.'
       },
       {
+        img: '../assets/img/img1.jpg',
         title: 'Maui By Air The Best Way Around The Island',
         desc: 'Authoritatively administrate long-term high-impact e-business via parallel web services. Synergistically synergize equity invested infrastructures whereas integrated infrastructures.'
       },
