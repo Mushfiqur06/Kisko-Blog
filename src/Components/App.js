@@ -19,6 +19,7 @@ class App extends Component {
         desc: 'Authoritatively administrate long-term high-impact e-business via parallel web services. Synergistically synergize equity invested infrastructures whereas integrated infrastructures.'
       },
       {
+        img: '../assets/img/img1.jpg',
         title: 'Business Cards Does Your Business Information Stick',
         desc: 'Authoritatively administrate long-term high-impact e-business via parallel web services. Synergistically synergize equity invested infrastructures whereas integrated infrastructures.'
       },
