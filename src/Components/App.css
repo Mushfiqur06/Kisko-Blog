@@ -7,6 +7,31 @@ a:hover{
     background-color: #f1f5f5;
     padding: 100px 0;
 }
+/* Blog Section Title style */
+.section-title{
+    margin-bottom: 60px;
+}
+.section-title h2{
+    font-family: 'Bitter', sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    text-transform: capitalize;
+    line-height: 60px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.section-title p{
+    font-family: 'Bitter', sans-serif;
+    color: #999;
+    font-size: 16px;
+    line-height: 26px;
+}
+.col-md-offset-2{
+    margin-left: 16.66666667%;
+}
+
+
+
 .blogWrapper{
     background-color: #fff;
     padding: 20px;
