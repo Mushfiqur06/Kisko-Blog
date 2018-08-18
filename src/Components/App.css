@@ -7,6 +7,35 @@ a:hover{
     background-color: #f1f5f5;
     padding: 100px 0;
 }
+
+/* Header Section Style */
+.AppHeader{
+    background-color: #fff;
+    border-bottom: solid 1px #e0e0e0;
+}
+.navbarTopLogo{
+    display: inline-block;
+}
+.navbarTopLogo h1 a {
+    font-family: 'Bitter', sans-serif;
+    font-weight: 900;
+    color: #03386c !important;
+}
+.menuList li{
+    list-style: none;
+    display: inline-block;
+}
+.menuLinkItem .menuLink {
+    color: #000;
+    display: inline-block;
+    padding: 20px 15px;
+    margin-left: 1px;
+    font-family: 'Bitter', sans-serif;
+    transition: all .3s ease-in-out;
+}
+.menuLink:hover{
+    color: #f6861c;
+}
 /* Blog Section Title style */
 .section-title{
     margin-bottom: 60px;
