@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './NavbarComponents/Navbar'
 import Posts from './PostComponents/posts'
+import About from './AboutComponents/About'
 
 class App extends Component {
 
@@ -46,7 +47,7 @@ class App extends Component {
   render() {
     let links = [
       { label: 'Home', link: '#home', active: true },
-      { label: 'About', link: '#about' },
+      { label: 'About', link: '/about' },
       { label: 'Portfolio', link: '#portfolio' },
       { label: 'Contact Us', link: '#contact-us' },
     ];
